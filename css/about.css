@@ -1,7 +1,7 @@
 body
 {
    background-color: #FFFFFF;
-   background-image: url('../images/wp5330572.jpg');
+   background-image: url('../images/Background.jpg');
    background-attachment: fixed;
    background-position: center center;
    background-repeat: repeat;
@@ -207,52 +207,6 @@ body
    box-sizing: border-box;
    width: 100%;
 }
-#upStickyLayer
-{
-   background-color: #2C579B;
-   background-image: none;
-   border-radius: 50%;
-}
-#wb_upIcon
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #3E3E3E;
-   border-radius: 0px;
-   text-align: center;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   vertical-align: top;
-}
-#wb_upIcon a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#upIcon
-{
-   height: 24px;
-   width: 24px;
-}
-#upIcon i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 24px;
-   line-height: 24px;
-   vertical-align: middle;
-   width: 23px;
-}
-#wb_upIcon:hover #upIcon i
-{
-   color: #678FD3;
-}
 #wb_LayoutGrid1
 {
    clear: both;
@@ -322,6 +276,397 @@ body
    float: none;
    width: 100% !important;
 }
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Text1
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_contact
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #C2C1C1;
+   border-right-color: #C2C1C1;
+   border-bottom-color: #C2C1C1;
+   border-left-color: #C2C1C1;
+   box-sizing: border-box;
+   margin: 0;
+}
+#contact
+{
+   box-sizing: border-box;
+   padding: 75px 15px 100px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1140px;
+}
+#contact > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#contact > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#contact > .row > .col-1
+{
+   float: left;
+}
+#contact > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: left;
+}
+#contact:before,
+#contact:after,
+#contact .row:before,
+#contact .row:after
+{
+   display: table;
+   content: " ";
+}
+#contact:after,
+#contact .row:after
+{
+   clear: both;
+}
+@media (max-width: 768px)
+{
+#contact > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_footerLayoutGrid
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#footerLayoutGrid
+{
+   box-sizing: border-box;
+   padding: 40px 15px 40px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#footerLayoutGrid > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#footerLayoutGrid > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#footerLayoutGrid > .row > .col-1
+{
+   float: left;
+}
+#footerLayoutGrid > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#footerLayoutGrid:before,
+#footerLayoutGrid:after,
+#footerLayoutGrid .row:before,
+#footerLayoutGrid .row:after
+{
+   display: table;
+   content: " ";
+}
+#footerLayoutGrid:after,
+#footerLayoutGrid .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#footerLayoutGrid > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_contactIcon2
+{
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid #EDE9E1;
+   border-radius: 50%;
+   text-align: center;
+   margin: 0 5px 0 0 ;
+   padding: 6px 6px 6px 6px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_contactIcon2 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#wb_contactIcon2:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #645E59;
+}
+#contactIcon2
+{
+   height: 30px;
+   width: 30px;
+}
+#contactIcon2 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 30px;
+   line-height: 30px;
+   vertical-align: middle;
+   width: 29px;
+}
+#wb_contactIcon2:hover #contactIcon2 i
+{
+   color: #2C579B;
+}
+#wb_contactIcon3
+{
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid #EDE9E1;
+   border-radius: 50%;
+   text-align: center;
+   margin: 0 5px 0 0 ;
+   padding: 6px 6px 6px 6px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_contactIcon3 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#wb_contactIcon3:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #645E59;
+}
+#contactIcon3
+{
+   height: 30px;
+   width: 30px;
+}
+#contactIcon3 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 30px;
+   line-height: 30px;
+   vertical-align: middle;
+   width: 29px;
+}
+#wb_contactIcon3:hover #contactIcon3 i
+{
+   color: #2C579B;
+}
+#wb_contactIcon4
+{
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid #EDE9E1;
+   border-radius: 50%;
+   text-align: center;
+   margin: 0 5px 0 0 ;
+   padding: 6px 6px 6px 6px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_contactIcon4 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#wb_contactIcon4:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #645E59;
+}
+#contactIcon4
+{
+   height: 30px;
+   width: 30px;
+}
+#contactIcon4 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 30px;
+   line-height: 30px;
+   vertical-align: middle;
+   width: 29px;
+}
+#wb_contactIcon4:hover #contactIcon4 i
+{
+   color: #2C579B;
+}
+#wb_contactIcon1
+{
+   background-color: #000000;
+   background-image: none;
+   border: 0px solid #EDE9E1;
+   border-radius: 50%;
+   text-align: center;
+   margin: 0 5px 0 0 ;
+   padding: 6px 6px 6px 6px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_contactIcon1 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#wb_contactIcon1:hover
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #645E59;
+}
+#contactIcon1
+{
+   height: 30px;
+   width: 30px;
+}
+#contactIcon1 i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 30px;
+   line-height: 30px;
+   vertical-align: middle;
+   width: 29px;
+}
+#wb_contactIcon1:hover #contactIcon1 i
+{
+   color: #2C579B;
+}
+#wb_contactHeading4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 30px 0 0 0 ;
+   padding: 0 0 20px 0;
+   text-align: left;
+}
+#contactHeading4
+{
+   color: #000000;
+   font-family: "Roboto Mono";
+   font-weight: bold;
+   font-style: normal;
+   font-size: 27px;
+   margin: 0;
+   text-align: left;
+}
+#contactHeading4 a
+{
+   color: inherit;
+   text-decoration: none;
 }
 .headerMenu .nav
 {
@@ -990,452 +1335,4 @@ body
    height: 32px;
    vertical-align: middle;
    line-height: 32px;
-}
-#wb_Text1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text1 div
-{
-   text-align: center;
-}
-#wb_Text1
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
-}
-#wb_contact
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border-top-width: 0px;
-   border-right-width: 0px;
-   border-bottom-width: 1px;
-   border-left-width: 0px;
-   border-top-style: solid;
-   border-right-style: solid;
-   border-bottom-style: solid;
-   border-left-style: solid;
-   border-top-color: #C2C1C1;
-   border-right-color: #C2C1C1;
-   border-bottom-color: #C2C1C1;
-   border-left-color: #C2C1C1;
-   box-sizing: border-box;
-   margin: 0;
-}
-#contact
-{
-   box-sizing: border-box;
-   padding: 75px 15px 100px 15px;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 1140px;
-}
-#contact > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#contact > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#contact > .row > .col-1
-{
-   float: left;
-}
-#contact > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 100%;
-   text-align: left;
-}
-#contact:before,
-#contact:after,
-#contact .row:before,
-#contact .row:after
-{
-   display: table;
-   content: " ";
-}
-#contact:after,
-#contact .row:after
-{
-   clear: both;
-}
-@media (max-width: 768px)
-{
-#contact > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#wb_footerLayoutGrid
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
-}
-#footerLayoutGrid
-{
-   box-sizing: border-box;
-   padding: 40px 15px 40px 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#footerLayoutGrid > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#footerLayoutGrid > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#footerLayoutGrid > .row > .col-1
-{
-   float: left;
-}
-#footerLayoutGrid > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 100%;
-   text-align: center;
-}
-#footerLayoutGrid:before,
-#footerLayoutGrid:after,
-#footerLayoutGrid .row:before,
-#footerLayoutGrid .row:after
-{
-   display: table;
-   content: " ";
-}
-#footerLayoutGrid:after,
-#footerLayoutGrid .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#footerLayoutGrid > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
-#wb_contactIcon2
-{
-   background-color: #000000;
-   background-image: none;
-   border: 0px solid #EDE9E1;
-   border-radius: 50%;
-   text-align: center;
-   margin: 0 5px 0 0 ;
-   padding: 6px 6px 6px 6px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_contactIcon2 a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_contactIcon2:hover
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 0px solid #645E59;
-}
-#contactIcon2
-{
-   height: 30px;
-   width: 30px;
-}
-#contactIcon2 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 30px;
-   line-height: 30px;
-   vertical-align: middle;
-   width: 29px;
-}
-#wb_contactIcon2:hover #contactIcon2 i
-{
-   color: #2C579B;
-}
-#wb_contactIcon3
-{
-   background-color: #000000;
-   background-image: none;
-   border: 0px solid #EDE9E1;
-   border-radius: 50%;
-   text-align: center;
-   margin: 0 5px 0 0 ;
-   padding: 6px 6px 6px 6px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_contactIcon3 a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_contactIcon3:hover
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 0px solid #645E59;
-}
-#contactIcon3
-{
-   height: 30px;
-   width: 30px;
-}
-#contactIcon3 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 30px;
-   line-height: 30px;
-   vertical-align: middle;
-   width: 29px;
-}
-#wb_contactIcon3:hover #contactIcon3 i
-{
-   color: #2C579B;
-}
-#wb_contactIcon4
-{
-   background-color: #000000;
-   background-image: none;
-   border: 0px solid #EDE9E1;
-   border-radius: 50%;
-   text-align: center;
-   margin: 0 5px 0 0 ;
-   padding: 6px 6px 6px 6px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_contactIcon4 a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_contactIcon4:hover
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 0px solid #645E59;
-}
-#contactIcon4
-{
-   height: 30px;
-   width: 30px;
-}
-#contactIcon4 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 30px;
-   line-height: 30px;
-   vertical-align: middle;
-   width: 29px;
-}
-#wb_contactIcon4:hover #contactIcon4 i
-{
-   color: #2C579B;
-}
-#wb_contactDescription 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0 0 20px 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_contactDescription
-{
-   color: #000000;
-   font-family: "Roboto Mono";
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 21.5px;
-}
-#wb_contactDescription p, #wb_contactDescription ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_contactDescription
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
-}
-#wb_contactIcon1
-{
-   background-color: #000000;
-   background-image: none;
-   border: 0px solid #EDE9E1;
-   border-radius: 50%;
-   text-align: center;
-   margin: 0 5px 0 0 ;
-   padding: 6px 6px 6px 6px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_contactIcon1 a::after
-{
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   z-index: 1;
-   pointer-events: auto;
-   content: "";
-}
-#wb_contactIcon1:hover
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 0px solid #645E59;
-}
-#contactIcon1
-{
-   height: 30px;
-   width: 30px;
-}
-#contactIcon1 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 30px;
-   line-height: 30px;
-   vertical-align: middle;
-   width: 29px;
-}
-#wb_contactIcon1:hover #contactIcon1 i
-{
-   color: #2C579B;
-}
-#wb_contactHeading1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   vertical-align: top;
-   margin: 25px 0 0 0 ;
-   padding: 0 0 10px 0;
-   text-align: left;
-}
-#contactHeading1
-{
-   color: #000000;
-   font-family: "Roboto Mono";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 29px;
-   margin: 0;
-   text-align: left;
-}
-#contactHeading1 a
-{
-   color: inherit;
-   text-decoration: none;
-}
-#wb_contactHeading4
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   vertical-align: top;
-   margin: 30px 0 0 0 ;
-   padding: 0 0 20px 0;
-   text-align: left;
-}
-#contactHeading4
-{
-   color: #000000;
-   font-family: "Roboto Mono";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 27px;
-   margin: 0;
-   text-align: left;
-}
-#contactHeading4 a
-{
-   color: inherit;
-   text-decoration: none;
 }
