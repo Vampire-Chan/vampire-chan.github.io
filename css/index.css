@@ -1,10 +1,10 @@
 body
 {
-   background-color: #262626;
+   background-color: #FFFFFF;
    background-image: url('../images/Background.jpg');
    background-attachment: fixed;
    background-position: center center;
-   background-repeat: repeat;
+   background-repeat: no-repeat;
    background-size: 100% 100%;
    color: #000000;
    font-family: Arial;
